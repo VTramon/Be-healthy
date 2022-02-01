@@ -1,9 +1,11 @@
 import Link from 'next/link'
+import { Header } from '../components/Header'
+import { Layout } from '../components/Layout'
 
 const IndexPage = () => (
-  <div>
-    <h1>teste</h1>
-  </div>
+  <Layout>
+    <Header />
+  </Layout>
 )
 
 export default IndexPage

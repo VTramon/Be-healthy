@@ -1,0 +1,44 @@
+@import '../../variables';
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  height: 33vh;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1920px;
+    height: inherit;
+
+    position: relative;
+
+    overflow: hidden;
+
+    img {
+      object-fit: cover;
+      box-shadow: 0 0 25px 0 black;
+    }
+  }
+
+  h1 {
+    position: absolute;
+    left: 3vw;
+    top: 5vh;
+
+    max-width: 30vw;
+
+    font-family: map-get($font-families, 'title');
+    font-size: 6.5em;
+    font-weight: 500;
+    text-decoration: underline;
+  }
+}
