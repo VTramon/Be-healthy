@@ -1,4 +1,4 @@
-@import '../../variables';
+@import '../../Styles/variables';
 
 .header {
   display: flex;
@@ -21,11 +21,11 @@
 
     position: relative;
 
-    overflow: hidden;
-
     img {
-      object-fit: cover;
+      width: 100%;
+      height: 100%;
       box-shadow: 0 0 25px 0 black;
+      object-fit: cover;
     }
   }
 
@@ -40,5 +40,25 @@
     font-size: 6.5em;
     font-weight: 500;
     text-decoration: underline;
+
+    @include breakpoint(laptop) {
+      font-size: 5em;
+    }
+
+    @include breakpoint(Lmobile) {
+      top: unset;
+      left: unset;
+      bottom: 1em;
+      max-width: unset;
+      width: 70vw;
+      text-align: center;
+
+      text-decoration: none;
+      -webkit-text-stroke: rgb(145, 145, 145);
+      -webkit-text-stroke-width: 1px;
+    }
+    @include breakpoint(mobile) {
+      bottom: unset;
+    }
   }
 }
