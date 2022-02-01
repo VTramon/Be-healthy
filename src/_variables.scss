@@ -1,0 +1,41 @@
+$title: 'Sail', cursive;
+$common: 'Yrsa', serif;
+
+$colors: (
+  background: #66f9c4,
+  font: #000000,
+  box: #9c8135,
+);
+
+$font-families: (
+  title: $title,
+  common: $common,
+);
+
+@mixin breakpoint($point) {
+  @if $point == Ldesktop {
+    @media (min-width: 90em) {
+      @content;
+    }
+  } @else if $point == desktop {
+    @media (min-width: 70em) {
+      @content;
+    }
+  } @else if $point == laptop {
+    @media (min-width: 64em) {
+      @content;
+    }
+  } @else if $point == tablet {
+    @media (min-width: 50em) {
+      @content;
+    }
+  } @else if $point == Stablet {
+    @media (min-width: 37.5em) {
+      @content;
+    }
+  } @else if $point == mobileonly {
+    @media (max-width: 37.5em) {
+      @content;
+    }
+  }
+}

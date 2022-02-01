@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Sail&family=Yrsa:wght@400;500;600;700&display=swap');
+@import './_variables';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  background-color: map-get($colors, 'background');
+  font-size: 16px;
+  font-family: map-get($font-families, 'common');
+}
