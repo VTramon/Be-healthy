@@ -33,12 +33,12 @@ const Layout: React.FC<LayoutProps> = (props) => {
 
         <div className={styles.tips}>
           <h3>Some tips to maintain a healthy diet</h3>
+
           <ol className={styles.tipsList}>
             <li>
-              <img src="/list/water.jpg" alt="bottles of water" />
-
+              <h4>Beba, no mínimo, 2 litros de água por dia</h4>
               <div>
-                <h4>Beba, no mínimo, 2 litros de água por dia</h4>
+                <img src="/list/water.webp" alt="bottles of water" />
                 <p>
                   Precisamos de água pois nosso sangue é composto por 90% dela,
                   e nosso corpo pode variar entre 50% e 75%, então cada vez que
@@ -51,10 +51,9 @@ const Layout: React.FC<LayoutProps> = (props) => {
             </li>
 
             <li>
-              <img src="/list/sugar.jpg" alt="sugar" />
-
+              <h4>Reduza os níveis de açúcar</h4>
               <div>
-                <h4>Reduza os níveis de açúcar</h4>
+                <img src="/list/sugar.webp" alt="sugar" />
                 <p>
                   O açúcar refinado é um composto que vem da cana-de-açúcar,
                   porém, toda a parte boa dele foi retirada, sobrando apenas as
@@ -68,10 +67,9 @@ const Layout: React.FC<LayoutProps> = (props) => {
             </li>
 
             <li>
-              <img src="/list/wholeFoods.jpg" alt="whole foods" />
-
+              <h4>Dê preferência para alimentos integrais</h4>
               <div>
-                <h4>Dê preferência para alimentos integrais</h4>
+                <img src="/list/wholeFoods.webp" alt="whole foods" />
                 <p>
                   Da mesma forma acontece com a farinha branca, ou seja, após um
                   processo de refinamento, todo o valor nutricional dela foi
@@ -87,10 +85,9 @@ const Layout: React.FC<LayoutProps> = (props) => {
             </li>
 
             <li>
-              <img src="/list/salad.jpg" alt="salad" />
-
+              <h4>Coma a salada primeiro</h4>
               <div>
-                <h4>Coma a salada primeiro</h4>
+                <img src="/list/salad.webp" alt="salad" />
                 <p>
                   No almoço e no jantar sempre comece suas refeições com a
                   salada, especialmente as saladas frias de folhas verdes, pois
@@ -103,10 +100,9 @@ const Layout: React.FC<LayoutProps> = (props) => {
             </li>
 
             <li>
-              <img src="/list/fruits.webp" alt="fruits" />
-
+              <h4>Consuma frutas todos os dias</h4>
               <div>
-                <h4>Consuma frutas todos os dias</h4>
+                <img src="/list/fruits.webp" alt="fruits" />
                 <p>
                   As frutas são excelentes alimentos, pois são ricas em fibras,
                   vitaminas, minerais, e atuam sempre de forma benéfica em nosso
@@ -118,13 +114,12 @@ const Layout: React.FC<LayoutProps> = (props) => {
             </li>
 
             <li>
-              <img
-                src="/list/meals.jpg"
-                alt="a clock denoting the meals of the day"
-              />
-
+              <h4>Faça de 4 a 6 refeições por dia</h4>
               <div>
-                <h4>Faça de 4 a 6 refeições por dia</h4>
+                <img
+                  src="/list/meals.webp"
+                  alt="a clock denoting the meals of the day"
+                />
                 <p>
                   Assim, você evita ter picos de fome durante o dia, o que te
                   faria ter vontade de comer mais do que o necessário na próxima
