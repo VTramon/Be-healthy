@@ -44,14 +44,10 @@
 .tipsList {
   display: flex;
   flex-direction: column;
+  list-style: none;
 
   li {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-start;
     width: 100%;
-    height: 250px;
     margin: 30px 0;
 
     h4 {
@@ -61,16 +57,29 @@
     }
 
     div {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 80%;
-
+      float: left;
       img {
         height: 100%;
         width: 250px;
         margin: 0 20px;
         object-fit: cover;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .tipsList {
+    li {
+      justify-content: center;
+      align-items: center;
+
+      div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        float: unset;
       }
     }
   }
