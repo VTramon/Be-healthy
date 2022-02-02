@@ -5,18 +5,19 @@
   justify-content: center;
   align-items: center;
 
-  position: absolute;
+  position: relative;
   top: 0;
   right: 0;
   left: 0;
   height: 33vh;
+  margin-bottom: 50px;
 }
 
 .contentHeader {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  width: 100%;
+  width: 100vw;
   max-width: 1920px;
   height: inherit;
 

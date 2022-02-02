@@ -1,0 +1,52 @@
+@import '../../Styles/variables';
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80vw;
+}
+
+.welcome {
+  margin-bottom: 50px;
+  width: 100%;
+
+  h2 {
+    font-size: 3em;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.2em;
+    text-align: justify;
+  }
+}
+
+.tips {
+  display: block;
+
+  h3 {
+    font-size: 2em;
+    margin: 15px;
+  }
+}
+
+.tipsList {
+  width: 100%;
+
+  li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 25px;
+
+    img {
+      height: 100%;
+      float: left;
+    }
+  }
+}
