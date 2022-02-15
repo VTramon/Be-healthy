@@ -1,4 +1,5 @@
 import { Header } from '../Header'
+import { LoseFat } from '../LoseFat'
 import { Tips } from '../Tips'
 import { Welcome } from '../Welcome'
 import styles from './style.module.scss'
@@ -14,6 +15,7 @@ const Layout: React.FC<LayoutProps> = (props) => {
       <main className={styles.main}>
         <Welcome />
         <Tips />
+        <LoseFat />
       </main>
     </>
   )
