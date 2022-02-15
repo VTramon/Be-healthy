@@ -2,7 +2,7 @@ import styles from './index.module.scss'
 
 const Welcome = () => {
   return (
-    <div className={styles.welcome}>
+    <section className={styles.welcome}>
       <h2>
         Welcome to <u>Be helthy</u>
       </h2>
@@ -20,7 +20,7 @@ const Welcome = () => {
         generated Lorem Ipsum is therefore always free from repetition, injected
         humour, or non-characteristic words etc.
       </p>
-    </div>
+    </section>
   )
 }
 

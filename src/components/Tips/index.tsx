@@ -2,7 +2,7 @@ import styles from './index.module.scss'
 
 const Tips = () => {
   return (
-    <div className={styles.tips}>
+    <section className={styles.tips}>
       <h3>Some tips to maintain a healthy diet</h3>
 
       <ol className={styles.tipsList}>
@@ -99,7 +99,7 @@ const Tips = () => {
           </p>
         </li>
       </ol>
-    </div>
+    </section>
   )
 }
 
