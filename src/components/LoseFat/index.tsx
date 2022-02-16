@@ -16,7 +16,7 @@ const LoseFat = () => {
         vitae elementum curabitur vitae nunc. At imperdiet dui accumsan sit amet
         nulla facilisi. Non consectetur a erat nam at lectus urna duis
         convallis. Enim neque volutpat ac tincidunt vitae. Tincidunt lobortis
-        feugiat vivamus at.{' '}
+        feugiat vivamus at.
       </p>
 
       <br />

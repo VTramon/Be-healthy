@@ -1,3 +1,4 @@
+import { Footer } from '../Footer'
 import { Header } from '../Header'
 import { LoseFat } from '../LoseFat'
 import { Tips } from '../Tips'
@@ -16,6 +17,8 @@ const Layout: React.FC<LayoutProps> = (props) => {
         <Welcome />
         <Tips />
         <LoseFat />
+
+        <Footer />
       </main>
     </>
   )

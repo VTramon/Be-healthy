@@ -1,0 +1,30 @@
+@import '../../Styles/variables';
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw;
+  min-height: 400px;
+  background-color: map-get($colors, 'footerBackground');
+}
+
+.footerContent {
+  width: 50%;
+}
+
+.footerIcons {
+  svg {
+    margin: 50px;
+  }
+}
+
+@include breakpoint(Stablet) {
+  .footer {
+    flex-direction: column;
+  }
+
+  .footerContent {
+    width: 90%;
+  }
+}
